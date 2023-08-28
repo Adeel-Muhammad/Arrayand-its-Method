@@ -176,9 +176,21 @@ const AllFruits =Fruits.concat(Fruit2,Fruit3);
 // console.log(AppleinArrays);
 
 //Fill
-const FillwithApple=AllFruits.fill("Apple",7,10);
+// const FillwithApple=AllFruits.fill("Apple",7,10);
 
-console.log(FillwithApple);
+// console.log(FillwithApple);
+
+//Filter
+
+function filterFruits(arr,query){
+
+    return arr.filter((el)=>el.toLowerCase().includes(query.toLowerCase()))
+
+}
+
+const filterValue=filterFruits(AllFruits,"ap");
+
+console.log(filterValue);
 
 
 
