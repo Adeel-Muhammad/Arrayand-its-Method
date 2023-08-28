@@ -199,8 +199,12 @@ const AllFruits =Fruits.concat(Fruit2,Fruit3);
 
 //Array.from
 
-const names = "Adeel Muhammad";
-console.log(Array.from(names));
+// const names = "Adeel Muhammad";
+// console.log(Array.from(names));
+
+//Includes
+
+console.log(AllFruits.includes("Apple"));
 
 
 
