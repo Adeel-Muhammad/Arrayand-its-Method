@@ -145,10 +145,11 @@
 
 const Fruits=["Apple","Mango","Orange","Peas","Promegranate","Bananna","Peach","WaterMelon"];
 const Fruit2=["PineApple","Chikoo","Grapes"];
+const Fruit3=["Date","Cherry"];
 
 //Concatenation Method
 
-const AllFruits =Fruits.concat(Fruit2);
+const AllFruits =Fruits.concat(Fruit2,Fruit3);
 for (x of AllFruits){
 
     console.log(x);
