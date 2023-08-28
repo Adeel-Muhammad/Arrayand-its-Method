@@ -182,15 +182,20 @@ const AllFruits =Fruits.concat(Fruit2,Fruit3);
 
 //Filter
 
-function filterFruits(arr,query){
+// function filterFruits(arr,query){
 
-    return arr.filter((el)=>el.toLowerCase().includes(query.toLowerCase()))
+//     return arr.filter((el)=>el.toLowerCase().includes(query.toLowerCase()))
 
-}
+// }
 
-const filterValue=filterFruits(AllFruits,"ap");
+// const filterValue=filterFruits(AllFruits,"ap");
 
-console.log(filterValue);
+// console.log(filterValue);
+
+//Find
+const DateinFruits=AllFruits.find((x)=>x="Date");
+
+console.log(DateinFruits);
 
 
 
