@@ -153,12 +153,22 @@ const AllFruits =Fruits.concat(Fruit2,Fruit3);
 
 //CopywithinArray
 
-const copiesArray=AllFruits.copyWithin(4);
-for (x of copiesArray){
+// const copiesArray=AllFruits.copyWithin(4);
+// for (x of copiesArray){
 
-    console.log(x);
+//     console.log(x);
+
+// }
+
+//entries
+
+for (const[index,value] of AllFruits.entries()){
+
+
+    console.log(index,value);
 
 }
+
 
 
 
