@@ -171,9 +171,16 @@ const AllFruits =Fruits.concat(Fruit2,Fruit3);
 
 //every
 
-const AppleinArrays=AllFruits.every((x)=> x==='Apple');
+// const AppleinArrays=AllFruits.every((x)=> x==='Apple');
 
-console.log(AppleinArrays);
+// console.log(AppleinArrays);
+
+//Fill
+const FillwithApple=AllFruits.fill("Apple",7,10);
+
+console.log(FillwithApple);
+
+
 
 
 
