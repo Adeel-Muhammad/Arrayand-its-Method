@@ -193,10 +193,14 @@ const AllFruits =Fruits.concat(Fruit2,Fruit3);
 // console.log(filterValue);
 
 //Find
-const DateinFruits=AllFruits.find((x)=>x="Date");
+// const DateinFruits=AllFruits.find((x)=>x="Date");
 
-console.log(DateinFruits);
+// console.log(DateinFruits);
 
+//Array.from
+
+const names = "Adeel Muhammad";
+console.log(Array.from(names));
 
 
 
