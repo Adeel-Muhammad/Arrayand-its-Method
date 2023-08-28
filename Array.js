@@ -162,12 +162,18 @@ const AllFruits =Fruits.concat(Fruit2,Fruit3);
 
 //entries
 
-for (const[index,value] of AllFruits.entries()){
+// for (const[index,value] of AllFruits.entries()){
 
 
-    console.log(index,value);
+//     console.log(index,value);
 
-}
+// }
+
+//every
+
+const AppleinArrays=AllFruits.every((x)=> x==='Apple');
+
+console.log(AppleinArrays);
 
 
 
