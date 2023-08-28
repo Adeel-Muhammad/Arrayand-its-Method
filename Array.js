@@ -150,7 +150,11 @@ const Fruit3=["Date","Cherry"];
 //Concatenation Method
 
 const AllFruits =Fruits.concat(Fruit2,Fruit3);
-for (x of AllFruits){
+
+//CopywithinArray
+
+const copiesArray=AllFruits.copyWithin(0,4,5);
+for (x of copiesArray){
 
     console.log(x);
 
